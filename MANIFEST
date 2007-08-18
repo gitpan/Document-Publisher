@@ -1,0 +1,23 @@
+Build.PL
+Changes
+MANIFEST
+META.yml # Will be created by "make dist"
+README
+lib/Document/Publisher.pm
+t/00-load.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t
+lib/Document/Publisher/Document.pm
+lib/Document/Publisher/Filter.pm
+lib/Document/Publisher/Filter/CODE.pm
+lib/Document/Publisher/Filter/Markdown.pm
+lib/Document/Publisher/Filter/Meta.pm
+lib/Document/Publisher/Filter/Meta/File.pm
+lib/Document/Publisher/Filter/TT.pm
+t/01-DP-Filter-Meta-File.t
+t/02-DP-Filter-TT.t
+t/03-DP-Filter-Markdown.t
+t/04-DP-Filter-CODE.t
+t/05-Document-Publisher.t
+Makefile.PL

@@ -1,0 +1,45 @@
+---
+name: Document-Publisher
+version: 0.01_02
+author:
+  - 'Robert Krimen <rkrimen@cpan.org>'
+abstract: Document::Publisher
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  File::Path: 0
+  File::Spec: 0
+  Getopt::Long: 0
+  Path::Class: 0
+  Scalar::Util: 0
+  Template: 0
+  Text::Markdown: 0
+  YAML: 0
+build_requires:
+  Directory::Scratch: 0
+  Test::More: 0
+provides:
+  Document::Publisher:
+    file: lib/Document/Publisher.pm
+    version: 0.01_02
+  Document::Publisher::Document:
+    file: lib/Document/Publisher/Document.pm
+  Document::Publisher::Filter:
+    file: lib/Document/Publisher/Filter.pm
+  Document::Publisher::Filter::CODE:
+    file: lib/Document/Publisher/Filter/CODE.pm
+  Document::Publisher::Filter::Markdown:
+    file: lib/Document/Publisher/Filter/Markdown.pm
+  Document::Publisher::Filter::Meta:
+    file: lib/Document/Publisher/Filter/Meta.pm
+  Document::Publisher::Filter::Meta::File:
+    file: lib/Document/Publisher/Filter/Meta/File.pm
+  Document::Publisher::Filter::Meta::File::FileAttributesSimple:
+    file: lib/Document/Publisher/Filter/Meta/File.pm
+  Document::Publisher::Filter::TT:
+    file: lib/Document/Publisher/Filter/TT.pm
+generated_by: Module::Build version 0.2806
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
